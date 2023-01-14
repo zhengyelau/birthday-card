@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
 // import './App.css';
 import "./birthday.css";
+import "./firework.css";
 
 function App() {
   return (
@@ -12,26 +13,33 @@ function App() {
     //     </p>
     //   </header>
     // </div>
-    <div className='firework'>
-      <div className='card'>
-        <div className='outside'>
-          <div className='front'>
+    <>
+      <div className="firework"></div>
+      <div className="firework"></div>
+      <div className="firework"></div>
+      <div className="firework"></div>
+      <div className="firework"></div>
+      <div className="firework"></div>
+
+      <div className="card">
+        <div className="outside">
+          <div className="front">
             <p>Happy birthday</p>
-            <div className='cake'>
-              <div className='top-layer'></div>
-              <div className='middle-layer'></div>
-              <div className='bottom-layer'></div>
-              <div className='candle'></div>
+            <div className="cake">
+              <div className="top-layer"></div>
+              <div className="middle-layer"></div>
+              <div className="bottom-layer"></div>
+              <div className="candle"></div>
             </div>
           </div>
-          <div className='back'></div>
+          <div className="back"></div>
         </div>
-        <div className='inside'>
+        <div className="inside">
           <p> ahhahahahahahah</p>
           <h1>&#127873;</h1>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
