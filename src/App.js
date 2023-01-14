@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-// import './App.css';
 import "./birthday.css";
 import "./firework.css";
 import "./patrick-star.css"
