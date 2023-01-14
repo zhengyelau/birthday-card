@@ -2,17 +2,10 @@ import logo from "./logo.svg";
 // import './App.css';
 import "./birthday.css";
 import "./firework.css";
+import "./patrick-star.css"
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       敬请期待
-    //     </p>
-    //   </header>
-    // </div>
     <>
       <div className="firework"></div>
       <div className="firework"></div>
@@ -24,7 +17,7 @@ function App() {
       <div className="card">
         <div className="outside">
           <div className="front">
-            <p>Happy birthday</p>
+            <p>奇生日快乐</p>
             <div className="cake">
               <div className="top-layer"></div>
               <div className="middle-layer"></div>
@@ -32,7 +25,19 @@ function App() {
               <div className="candle"></div>
             </div>
           </div>
-          <div className="back"></div>
+          <div className="back">
+            <div class="patrick-star-face">
+              <div class="eye-group">
+                <div class="eyebrow eyebrow-left"></div>
+                <div class="eyebrow eyebrow-right"></div>
+                <div class="eye eye-left"></div>
+                <div class="eye eye-right"></div>
+              </div>
+              <div class="mouth-group">
+                <div class="mouth"></div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="inside">
           <p> ahhahahahahahah</p>

@@ -1,0 +1,134 @@
+.patrick-star-face {
+    position: relative;
+    background: #F7ABAD;
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.patrick-star-face .eye-group {
+    width: 320px;
+    height: 330px;
+    position: relative;
+}
+
+.patrick-star-face .eye {
+    position: absolute;
+    top: 40%;
+    width: 130px;
+    height: 180px;
+    background: white;
+    border: 5px solid black;
+    border-radius: 130px / 180px;
+    animation: blink forwards infinite 6s ease-in-out;
+
+}
+
+.patrick-star-face .eye-left::before,
+.patrick-star-face .eye-right::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 40px;
+    height: 60px;
+    background: black;
+    border-radius: 40px / 60px;
+}
+
+.patrick-star-face .eye-left::before {
+    left: 60%;
+}
+
+.patrick-star-face .eye-right::before {
+    right: 60%;
+}
+
+.patrick-star-face .eye-left {
+    left: 50%;
+    margin-left: -130px;
+    transform: rotate(10deg);
+}
+
+.patrick-star-face .eye-right {
+    right: 50%;
+    margin-right: -130px;
+    transform: rotate(-10deg);
+}
+
+.patrick-star-face .eyebrow,
+.patrick-star-face .eyebrow-left::after,
+.patrick-star-face .eyebrow-right::after {
+    position: absolute;
+    top: 40%;
+    height: 10px;
+    width: 80px;
+    background: black;
+    border-radius: 5px;
+}
+
+.patrick-star-face .eyebrow-left {
+    margin-top: -50px;
+    left: 15%;
+    transform: rotate(-30deg);
+}
+
+.patrick-star-face .eyebrow-left::after,
+.patrick-star-face .eyebrow-right::after {
+    content: '';
+    margin-top: -10px;
+    left: 0;
+}
+
+.patrick-star-face .eyebrow-right {
+    margin-top: -80px;
+    right: 15%;
+    transform: rotate(30deg);
+}
+
+.patrick-star-face .mouth-group {
+    position: relative;
+    width: 320px;
+    height: 120px;
+}
+
+.patrick-star-face .mouth {
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    border: 5px solid black;
+    left: 50%;
+    margin-left: -120px;
+    top: 0;
+    margin-top: -20px;
+    border-radius: 50% /0 0 50px 50px;
+    border-top: none;
+}
+
+.patrick-star-face .mouth::before,
+.patrick-star-face .mouth::after {
+    position: absolute;
+    top: 0;
+    content: '';
+    background: white;
+    border-top: 5px solid #F7ABAD;
+    border-bottom: 5px solid #F7ABAD;
+    height: 20px;
+}
+
+.patrick-star-face .mouth::before {
+    left: 0;
+    border-left: 5px solid black;
+    border-right: 5px transparent;
+    transform: rotate(30deg) translate(-12px, -8px);
+}
+
+.patrick-star-face .mouth::after {
+    right: 0;
+    border-right: 5px solid black;
+    border-left: 5px transparent;
+    transform: rotate(-30deg) translate(12px, -8px);
+}
