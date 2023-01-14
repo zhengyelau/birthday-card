@@ -55,7 +55,7 @@ body {
 
 .inside {
     background: linear-gradient(to right, #e0e0e0,
-    #ffffff 30%);
+    #f5e3e3 30%);
     line-height: 3;
     padding: 0 20px;
     text-align: center;
@@ -86,7 +86,7 @@ body {
 
 .front {
 
-    background-color: #ffffff;
+    background-color: #f5e3e3;
 }
 
 .back {

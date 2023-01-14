@@ -17,7 +17,7 @@ function App() {
       <div className="card">
         <div className="outside">
           <div className="front">
-            <p>奇生日快乐</p>
+            <p>奇的生日卡</p>
             <div className="cake">
               <div className="top-layer"></div>
               <div className="middle-layer"></div>
@@ -40,7 +40,7 @@ function App() {
           </div>
         </div>
         <div className="inside">
-          <p> ahhahahahahahah</p>
+          <p>祝你在每个成长的日子里都开开心心，虽然这次的生日没能给你准备好吃的蛋糕，生日礼物，但不要觉得遗憾，因为此刻你拥有了世界上最真心的祝福，生日快乐啊&#128512;</p>
           <h1>&#127873;</h1>
         </div>
       </div>
